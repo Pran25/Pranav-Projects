@@ -1,0 +1,15 @@
+package com.user.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.user.service.UserServiceImplementation;
+
+@Controller
+@RequestMapping("/userauth")
+public class UserController {
+	
+	private UserServiceImplementation implementation;
+	
+
+}

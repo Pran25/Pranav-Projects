@@ -1,0 +1,32 @@
+package com.user.ServiceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.user.Entity.Customer;
+import com.user.Repositiory.CustRepository;
+import com.user.Service.CustService;
+
+@Service
+public class CustomerImplementation implements CustService{
+	@Autowired
+	private CustRepository repo;
+	
+	private BCryptPasswordEncoder encoder;
+	
+	@Override
+	public Customer registerCust(Customer customer) {
+		
+		return null;
+	}
+
+	
+	public List<Customer> getAllCust() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

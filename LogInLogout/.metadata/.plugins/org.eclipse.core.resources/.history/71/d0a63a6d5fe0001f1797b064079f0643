@@ -1,0 +1,23 @@
+@Service
+public class CustService {
+
+    @Autowired
+    private CustomerRepository customerRepository;
+
+    public Customer registerCust(Customer customer) {
+        // Check if customer already exists (if needed)
+        if (customerRepository.existsByCustname(customer.getCustname())) {
+            throw new RuntimeException("User already exists");
+        }
+        
+        // Hash the password before saving
+        customer.setCustpass(new BCryptPasswordEncoder().encode(customer.getCustpass()));
+        
+        // Save the customer to the database
+        return customerRepository.save(customer);
+    }
+
+    public List<Customer> getAllCust() {
+        return customerRepository.findAll();
+    }
+}

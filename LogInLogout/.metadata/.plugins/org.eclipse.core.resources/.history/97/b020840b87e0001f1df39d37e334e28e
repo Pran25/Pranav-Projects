@@ -1,0 +1,15 @@
+package com.user.service;
+
+import org.springframework.stereotype.Service;
+
+import com.user.entity.User;
+@Service
+public class UserServiceImplementation implements UserService{
+
+	@Override
+	public String registerUser(User user) {
+		
+		return null;
+	}
+
+}

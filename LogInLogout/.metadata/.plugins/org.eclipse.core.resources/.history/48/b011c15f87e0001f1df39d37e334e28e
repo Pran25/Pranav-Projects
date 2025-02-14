@@ -1,0 +1,24 @@
+package com.user.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.user.entity.User;
+import com.user.repository.UserRepository;
+@Service
+public class UserServiceImplementation implements UserService{
+	@Autowired
+	private UserRepository repo;
+	private PasswordEncoder encod
+
+	@Override
+	public String registerUser(User user) {
+		if(repo.existsByEmail(user.getEmail())) {
+			return "Email Already Exist";
+		}
+		user.setPassword(null);
+		return null;
+	}
+
+}

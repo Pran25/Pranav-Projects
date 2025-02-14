@@ -1,0 +1,85 @@
+.banner {
+    background-color: #aaf0e7; /* Light Blue Background */
+    padding: 60px 0;
+    
+}
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+.banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.banner h1 {
+    font-weight: bold;
+}
+.shop-btn {
+    background-color: #7b6ef6; /* Purple Button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.shop-btn:hover {
+    background-color: #5b4be6;
+}
+
+.info
+{
+  color: grey;
+  margin-top: 150px;
+  align-items: center;
+}
+
+.collection-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.collection-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.collection-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: white;
+    text-align: left;
+}
+
+.collection-overlay span {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.collection-overlay h2 {
+    margin: 5px 0 0;
+    font-size: 24px;
+}
+
+.collection-item:hover img {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+    .collection-overlay h2 {
+        font-size: 20px;
+    }
+    .collection-overlay span {
+        font-size: 10px;
+    }
+}

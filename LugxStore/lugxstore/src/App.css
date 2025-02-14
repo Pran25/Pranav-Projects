@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bg-primary {
+    background: linear-gradient(to bottom right, #0056b3, #007bff);
+  }
+  
+  .text-warning {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  input::placeholder {
+    color: #ccc;
+  }
+
+  .category {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-weight: bold;
+  }
+
+  .card img {
+    border-radius: 0 0 15px 15px;
+  }
+
+  .card-cat {
+    border-radius: 15px;
+    overflow: hidden;
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .cta {
+    position: relative;
+    padding: 80px 0;
+    margin-top: 150px;
+  }
+  
+  .cta-background {
+    background-image: url('/public/images/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    max-width: 550px;
+    max-height: 510px;
+    border-radius: 25px;
+    z-index: -1;
+    
+  }
+  
+  .cta .shop, .cta .subscribe {
+    background-color: #f7f7f7;
+    border-radius: 25px;
+  }
+  
+  .cta .shop .section-heading h2, .cta .subscribe .section-heading h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .cta .main-button .btn {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .cta .subscribe form input {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: #7a7a7a;
+    border-radius: 25px;
+  }
+  
+  .cta .subscribe form button {
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 25px;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s;
+  }
+  
+  .cta .subscribe form button:hover {
+    background-color: #0071f8;
+  }
+  
+  footer {
+    margin-top: 150px;
+    background-color: #0071f8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/public/images/footer-bg.jpg);
+    min-height: 120px;
+    border-radius: 150px 150px 0px 0px;
+  }
+  
+  footer p {
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  footer p a {
+    color: #fff;
+    transition: all .3s;
+    position: relative;
+    z-index: 3;
+  }
+  
+  footer p a:hover {
+    opacity: 0.75;
+  }
+  
+  .banner {
+    background-image: url('/public/images/banner-bg.jpg');
+    /* Adjust path if needed */
+    border-radius: 0px 0px 150px 150px;
+    background-size: cover;
+    /* Cover the entire area */
+    background-position: center bottom;
+    /* Center the image */
+    background-repeat: no-repeat;
+    padding: 225px 0px;
+    position: relative;
+  }
+  
+  .bannerh2 {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+  }
+  
+  
+  
+  
+  
+  .banner  form input{
+    max-width: 550px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+  }
+  
+  .banner  form button{
+   display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    right: 0;
+    top: 0;
+    bottom: 0px;
+    transition: all .3s;
+  }
+  
+  .price{
+  
+    border: 1px solid #df3440;
+    border-radius: 50%;
+    color: white;
+    padding: 29px;
+    background-color: #d44650;
+    
+  
+    
+  }
+  
+  .discount{
+  
+    border-radius: 25px 25px 25px 25px;
+    padding: 12px;
+    background-color: #1372e6;
+    color: white;
+    position: relative;
+    top: 35px;
+    right: 15px;
+  
+   
+  
+    
+  }
+  
+  .grid .card{
+
+   
+    box-shadow: inset;
+    border-radius: 15px 15px 15px 15px;
+    padding: 15px;
+    bottom: 85px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-style{
+
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 50px;
+    color: white;
+    background-color: #0876ec ;
+}
+
+.icon-style :hover{
+
+    background-color: #d34851;
+
+
+}
+
+.card-img-top{
+
+  border-radius: 25px 25px 25px 25px;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+
+
+
+
+.explore-btn{
+
+  background-color:#d44650 ;
+  color: white;
+  border-radius: 25px;
+}
+
+.trending-card{
+
+  border: 1px solid black;
+  border-radius: 25px 25px 25px 25px;
+  
+}
+
+.card-img-top{
+  
+  border-radius: 25px 25px 35px 35px ;
+}
+
+.card-body-text p{
+  color: gray;
+}
+
+.shopbtn{
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #d44650;
+}
+
+.grid .card{
+
+   
+  box-shadow: inset;
+  border-radius: 15px 15px 15px 15px;
+  padding: 15px;
+  bottom: 85px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.icon-style{
+
+  font-size: 40px;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 50px;
+  color: white;
+  background-color: #0876ec ;
+}
+
+.icon-style :hover{
+
+  background-color: #d34851;
+
+
+}
+
+.navbar-stick{
+  background-color: #0876ec;
+  padding: 100px 0px;
+  position: relative;
+}
+
+.banner-img{
+
+  background-image: url('/public/images/banner-bg.jpg');
+  border-radius: 0px 0px 140px 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 160px 0;
+  position: relative;
+  background-position: center bottom;
+}
+
+
+
+
+
+
+  

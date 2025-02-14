@@ -1,0 +1,76 @@
+
+Aug 01, 2024 17:24:24.43 NEW SESSION
+Aug 01, 2024 17:24:24.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 01, 2024 17:24:51.13 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 01, 2024 17:40:41.21 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 01, 2024 17:41:13.34 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 01, 2024 17:43:11.15 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 01, 2024 17:43:43.56 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 01, 2024 17:44:28.40 [12084:15284:0801/174428.409:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+Aug 01, 2024 17:51:24.58 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 01, 2024 17:51:56.03 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+
+Aug 01, 2024 18:42:40.07 NEW SESSION
+Aug 01, 2024 18:42:40.08 [10704:9552:0801/184240.075:ERROR:cert_verify_proc_builtin.cc(1069)] CertVerifyProcBuiltin for prod5c.rewardsplatform.microsoft.com failed:
+Aug 01, 2024 18:42:40.09 ----- Certificate i=0 (CN=Kubernetes Ingress Controller Fake Certificate,O=Acme Co) -----
+Aug 01, 2024 18:42:40.09 ERROR: No matching issuer found
+Aug 01, 2024 18:42:40.09 
+Aug 01, 2024 18:42:40.09 
+Aug 01, 2024 18:43:10.23 [10704:6708:0801/184310.236:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 01, 2024 18:43:10.27 [10704:6708:0801/184310.273:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+
+Aug 02, 2024 08:08:30.82 NEW SESSION
+Aug 02, 2024 08:08:30.83 [11712:3624:0802/080830.800:ERROR:cert_verify_proc_builtin.cc(1069)] CertVerifyProcBuiltin for prod5c.rewardsplatform.microsoft.com failed:
+Aug 02, 2024 08:08:30.84 ----- Certificate i=0 (CN=Kubernetes Ingress Controller Fake Certificate,O=Acme Co) -----
+Aug 02, 2024 08:08:30.84 ERROR: No matching issuer found
+Aug 02, 2024 08:08:30.84 
+Aug 02, 2024 08:08:30.84 
+Aug 02, 2024 08:09:02.30 [11712:2848:0802/080902.309:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 08:09:02.35 [11712:2848:0802/080902.356:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+
+Aug 02, 2024 18:08:48.60 NEW SESSION
+Aug 02, 2024 18:08:48.61 [6656:5556:0802/180848.602:ERROR:cert_verify_proc_builtin.cc(1069)] CertVerifyProcBuiltin for prod5c.rewardsplatform.microsoft.com failed:
+Aug 02, 2024 18:08:48.61 ----- Certificate i=0 (CN=Kubernetes Ingress Controller Fake Certificate,O=Acme Co) -----
+Aug 02, 2024 18:08:48.61 ERROR: No matching issuer found
+Aug 02, 2024 18:08:48.61 
+Aug 02, 2024 18:08:48.61 
+Aug 02, 2024 18:08:52.29 [6656:12936:0802/180852.293:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 18:08:52.35 [6656:12936:0802/180852.358:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 18:09:19.18 [6656:12936:0802/180919.186:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 18:09:19.21 [6656:12936:0802/180919.216:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+
+Aug 02, 2024 21:26:49.61 NEW SESSION
+Aug 02, 2024 21:26:49.62 [11468:1212:0802/212649.614:ERROR:cert_verify_proc_builtin.cc(1069)] CertVerifyProcBuiltin for prod5c.rewardsplatform.microsoft.com failed:
+Aug 02, 2024 21:26:49.84 ----- Certificate i=0 (CN=Kubernetes Ingress Controller Fake Certificate,O=Acme Co) -----
+Aug 02, 2024 21:26:49.84 ERROR: No matching issuer found
+Aug 02, 2024 21:26:49.84 
+Aug 02, 2024 21:26:49.84 
+Aug 02, 2024 21:26:53.32 [11468:11136:0802/212653.325:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 21:26:53.39 [11468:11136:0802/212653.394:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 21:27:20.35 [11468:11136:0802/212720.357:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 21:27:20.42 [11468:11136:0802/212720.429:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/VNNyLOpNfI-wPXn-E1pneV7wVBs.gz.js (2)
+Aug 02, 2024 22:15:23.72 [11468:11136:0802/221523.728:ERROR:fallback_task_provider.cc(127)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Aug 02, 2024 22:16:23.13 [11468:1212:0802/221623.135:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:17:08.93 [11468:1212:0802/221708.933:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:17:08.93 [11468:1212:0802/221708.933:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:17:08.93 [11468:1212:0802/221708.933:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:18:16.60 [11468:11136:0802/221816.604:ERROR:autofill_popup_view_edge_views.cc(1084)] HasFocusnot implemented.
+Aug 02, 2024 22:19:02.28 [11468:1212:0802/221902.282:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:19:02.28 [11468:1212:0802/221902.282:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:19:02.28 [11468:1212:0802/221902.282:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:19:02.28 [11468:1212:0802/221902.282:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:21:52.81 [11468:1212:0802/222152.819:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:21:52.82 [11468:1212:0802/222152.819:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:21:52.82 [11468:1212:0802/222152.819:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:21:52.82 [11468:1212:0802/222152.819:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:21:52.82 [11468:1212:0802/222152.819:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+Aug 02, 2024 22:21:52.82 [11468:1212:0802/222152.819:ERROR:commit_contribution_impl.cc(242)] Server reports commit message is invalid.
+
+Aug 03, 2024 09:58:05.68 NEW SESSION
+Aug 03, 2024 09:58:05.69 [8696:3444:0803/095805.665:ERROR:cert_verify_proc_builtin.cc(1069)] CertVerifyProcBuiltin for prod5c.rewardsplatform.microsoft.com failed:
+Aug 03, 2024 09:58:05.71 ----- Certificate i=0 (CN=Kubernetes Ingress Controller Fake Certificate,O=Acme Co) -----
+Aug 03, 2024 09:58:05.71 ERROR: No matching issuer found
+Aug 03, 2024 09:58:05.71 
+Aug 03, 2024 09:58:05.71 
+Aug 03, 2024 09:58:38.23 [8696:10312:0803/095838.238:ERROR:CONSOLE(2)] "Blocked autofocusing on a <cib-action-bar> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/lcKmQckqPd4ejYBckgDpvdMikT4.gz.js (2)
+Aug 03, 2024 09:58:38.30 [8696:10312:0803/095838.296:ERROR:CONSOLE(2)] "Blocked autofocusing on a <textarea> element in a cross-origin subframe.", source: https://edgeservices.bing.com/rp/lcKmQckqPd4ejYBckgDpvdMikT4.gz.js (2)

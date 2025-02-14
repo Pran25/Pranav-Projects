@@ -1,0 +1,37 @@
+package com.user.ServiceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import com.user.Entity.Customer;
+import com.user.Repositiory.CustRepository;
+import com.user.Service.CustService;
+
+@Service
+public class CustomerImplementation implements CustService{
+	@Autowired
+	private CustRepository repo;
+	@Autowired
+	private BCryptPasswordEncoder encoder;
+	
+	@Override
+	public Customer registerCust(Customer customer) {
+		if(repo.existsByCustname(customer.getCustname())) {
+			throw new RuntimeException("Customer already Exists");
+		}
+		
+		customer.setCustpass(encoder.encode(customer.getCustpass()));
+		return repo.save(customer);
+	}
+
+	
+	public List<Customer> getAllCust() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

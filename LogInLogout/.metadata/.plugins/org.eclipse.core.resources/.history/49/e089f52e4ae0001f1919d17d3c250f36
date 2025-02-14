@@ -1,0 +1,27 @@
+package com.user.Entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public class Customer {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+	private String custname;
+	private String custpass;
+	
+	public Customer() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Customer(String custname, String custpass) {
+		super();
+		this.custname = custname;
+		this.custpass = custpass;
+	}
+	
+
+}

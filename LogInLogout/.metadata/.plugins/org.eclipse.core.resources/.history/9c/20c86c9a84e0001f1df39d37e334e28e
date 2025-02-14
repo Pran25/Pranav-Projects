@@ -1,0 +1,16 @@
+package com.user.Repositiory;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.user.Entity.Customer;
+
+@Repository
+public interface CustRepository extends JpaRepository<Customer, Long>{
+	
+	Optional<Customer> findBycustname(String custname);
+	boolean existsBycustname(String custname);
+
+}

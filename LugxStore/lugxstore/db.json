@@ -1,0 +1,92 @@
+{
+  "Games": [
+    {
+      "id": "1",
+      "name": "Warframe",
+      "oldprice": "600₹",
+      "price": "800₹",
+      "category": "Action",
+      "image": "./images/top-game-01.jpg"
+    },
+    {
+      "id": "2",
+      "name": "PUBG",
+      "oldprice": "600₹",
+      "price": "100₹",
+      "category": "Multiplayer",
+      "image": "./images/top-game-02.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Sims4",
+      "oldprice": "600₹",
+      "price": "400₹",
+      "category": "SliceofLife",
+      "image": "./images/top-game-04.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Lostark",
+      "oldprice": "300₹",
+      "price": "200₹",
+      "category": "Action",
+      "image": "./images/top-game-05.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Destiny2",
+      "oldprice": "200₹",
+      "price": "200₹",
+      "category": "Adventure",
+      "image": "./images/top-game-06.jpg"
+    },
+    {
+      "id": "6",
+      "name": "SuperPeople",
+      "oldprice": "100₹",
+      "price": "50₹",
+      "category": "Multiplayer",
+      "image": "./images/categories-04.jpg"
+    },
+    {
+      "id": "7",
+      "name": "BrawlHalla",
+      "oldprice": "100₹",
+      "price": "50₹",
+      "category": "Action",
+      "image": "./images/categories-01.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Dota 2",
+      "oldprice": "100₹",
+      "price": "50₹",
+      "category": "Adventure",
+      "image": "./images/categories-02.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Tower of Fantasy",
+      "oldprice": "100₹",
+      "price": "20₹",
+      "category": "SliceofLife",
+      "image": "./images/categories-03.jpg"
+    }
+  ],
+  "itemcart": [
+    {
+      "id": "4",
+      "name": "Lostark",
+      "oldprice": "300₹",
+      "price": "200₹",
+      "category": "Action",
+      "image": "./images/top-game-05.jpg"
+    }
+  ],
+  "user": [
+    
+    {
+     
+    }
+  ]
+}

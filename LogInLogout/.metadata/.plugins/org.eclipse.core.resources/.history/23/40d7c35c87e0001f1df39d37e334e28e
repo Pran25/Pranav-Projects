@@ -1,0 +1,21 @@
+package com.user.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.user.entity.User;
+import com.user.repository.UserRepository;
+@Service
+public class UserServiceImplementation implements UserService{
+	@Autowired
+	private UserRepository repo;
+
+	@Override
+	public String registerUser(User user) {
+		if(repo.existsByEmail(user.getEmail())) {
+			return "Email Already Exist";
+		}
+		return null;
+	}
+
+}

@@ -1,0 +1,109 @@
+.div1
+{
+    height: 50px;
+    background-color: #81c408;
+    color: white;
+    border-radius: 50px 20px 50px 20px;
+}
+.div1 a:link,a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+.breadcrumb-item::before
+{
+    color: white !important;
+}
+.breadcrumb-item> a:hover
+{
+    color: orange;
+}
+.navbar-nav li a
+{
+    color: black;
+    font-size: 16px;
+    margin-top: 20px;
+}
+input[type=search]
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    background-image: url('Images/download.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    outline: none;
+}
+input[type=search]:hover
+{
+   background-color: orange;
+}
+input[type=search]::placeholder
+{
+    color: #81c408;
+    font-size: 18px;
+}
+#button-addon2
+{
+    background-color: #81c408;
+}
+#button-addon2:hover
+{
+    background-color: orange;
+}
+.nav-pills li button
+{
+    width: 120px;
+    margin-left: 10px;
+}
+.nav-pills li button:hover
+{
+    background-color: orange !important;
+    color: white !important;
+
+}
+.slider69 .card
+{
+    overflow: hidden;
+    border: 1px solid #81c408;
+}
+.slider69 img:hover
+{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+
+}
+.slider69 .card:hover 
+{
+    box-shadow: 9px 8px 12px lightgray;
+}
+.text-dark:hover
+{
+    background-color: #81c408 !important;
+}
+.list-unstyled li,a:link,a:visited
+{
+    color: lightgray;
+    text-decoration: none;
+    padding: 5px;
+}
+.backimg
+{
+    background-image: url("images/cart-page-header-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.pross .card
+{
+    overflow: hidden;
+    border: 1px solid #81c408;
+}
+.pross img:hover
+{
+    transform: scale(1.1,1.1);
+    transition: 2s;
+
+}
