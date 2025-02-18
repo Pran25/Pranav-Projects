@@ -1,5 +1,0 @@
-package com.user.Repositiory;
-
-public interface CustRepository {
-
-}

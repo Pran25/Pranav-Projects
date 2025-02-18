@@ -1,9 +1,0 @@
-package com.user.Service;
-
-import com.user.Entity.Customer;
-
-public interface CustService {
-	
-	Customer registerCust(Customer customer);
-
-}
