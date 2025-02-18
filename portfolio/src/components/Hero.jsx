@@ -4,14 +4,10 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Hero = () => {
   const handleClick = () => {
-    
     const projectsSection = document.getElementById("projects");
-    
     if (projectsSection) {
-     
       projectsSection.scrollIntoView({ behavior: "smooth" });
     } else {
-     
       window.open("https://github.com/Pran25", "_blank");
     }
   };
@@ -29,9 +25,10 @@ const Hero = () => {
         background: "linear-gradient(to right, #1976D2, #21CBF3)",
         color: "#fff",
         px: 2,
+        width: "100%", 
+        overflowX: "hidden", 
       }}
     >
-    
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -45,7 +42,6 @@ const Hero = () => {
         </Typography>
       </motion.div>
 
-    
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}

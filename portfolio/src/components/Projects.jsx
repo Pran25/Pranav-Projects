@@ -1,4 +1,4 @@
-import { Box, Typography, Card, CardContent, CardActions, Button, Grid, Chip } from "@mui/material";
+import { Box, Typography, Grid, Card, CardContent, CardActions, Button, Chip } from "@mui/material";
 import { motion } from "framer-motion";
 
 const projects = [
@@ -18,7 +18,7 @@ const projects = [
     name: "Product Management System",
     description: "A full-stack project for managing product inventories.",
     technologies: ["ReactJS", "Spring Boot", "MySQL", "Hibernate"],
-    github: "https://github.com/yourgithub/product-management",
+    github: "https://github.com/Pran25/Pranav-Projects/tree/main/PMS",
   },
 ];
 
@@ -30,11 +30,11 @@ const Projects = () => {
         textAlign: "center",
         py: 8,
         px: 2,
-        backgroundColor: "#F9F9F9",
-        mt: 18, 
+        background: "linear-gradient(to right, #1976D2, #21CBF3)", 
+        width: "100%", 
       }}
     >
-      <Typography variant="h4" fontWeight="bold" sx={{ mb: 4 }}>
+      <Typography variant="h4" fontWeight="bold" sx={{ mb: 4, color: "white" }}>
         My Projects 💻
       </Typography>
 
@@ -61,11 +61,9 @@ const Projects = () => {
                   <Typography variant="h6" fontWeight="bold">
                     {project.name}
                   </Typography>
-
                   <Typography variant="body2" sx={{ mt: 1, color: "gray" }}>
                     {project.description}
                   </Typography>
-
                   <Box sx={{ mt: 2 }}>
                     {project.technologies.map((tech, idx) => (
                       <Chip key={idx} label={tech} sx={{ mr: 1, mb: 1, fontWeight: "bold" }} color="primary" />
@@ -74,21 +72,19 @@ const Projects = () => {
                 </CardContent>
 
                 <CardActions sx={{ justifyContent: "center", mt: "auto" }}>
-                  <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
-                    <Button
-                      size="small"
-                      variant="contained"
-                      sx={{
-                        backgroundColor: "#333",
-                        color: "white",
-                        "&:hover": { backgroundColor: "#222" },
-                      }}
-                      href={project.github}
-                      target="_blank"
-                    >
-                      View on GitHub
-                    </Button>
-                  </motion.div>
+                  <Button
+                    size="small"
+                    variant="contained"
+                    sx={{
+                      backgroundColor: "#333",
+                      color: "white",
+                      "&:hover": { backgroundColor: "#222" },
+                    }}
+                    href={project.github}
+                    target="_blank"
+                  >
+                  GitHub
+                  </Button>
                 </CardActions>
               </Card>
             </motion.div>
